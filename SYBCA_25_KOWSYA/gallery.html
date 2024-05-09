@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewpoint" content="with=device-width, intial=scale=1.0">
+<title> Meteora </title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<style>h2{color:white; font-family:serif;}</style>
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="HomePage.html"><img src="png1.png"></a>
+&nbsp;&nbsp;<h2 color:=white>DON BOSCO COLLEGE</h2>
+<div class="nav-links">
+<ul>
+<li><a href="HomePage.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="registration.html">REGISTRATION</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+</nav>
+<h1>GALLERY</h1>
+
+</section>
+<!----GALLERY---->
+<section class="gallery">
+<div class="full-img" id="fullimgbox">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\IMG_8905-1.jpeg" id="fullimg">
+<span onclick="closefullimg()">close</span>
+</div>
+<div class="img-gallery">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523228.jpg" onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523194.jpg" onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523162.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523127.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523096.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522436.jpg"onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523062.jpg" onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131523029.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522994.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\IMG_8905-1.jpeg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\IMG_8881-768x432[1334].jpeg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522917.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522877.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522843.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522773.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522961.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522809.jpg"onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522738.jpg"onclick="openfullimg(this.src)">
+</div>
+<h1 class="gly">SPONSORS</h1>
+<div class="img-gallery">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522705.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522469.jpg" onclick="openfullimg(this.src)">
+<img src= "C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522502.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522535.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522568.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522601.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522634.jpg" onclick="openfullimg(this.src)">
+<img src="C:\Users\91862\Desktop\SYBCA_25_KOWSYA\1709131522673.jpg" onclick="openfullimg(this.src)">
+</div>
+<script>
+var fullimgbox=document.getElementById("fullimgbox");
+var fullimg=document.getElementById("fullimg");
+function openfullimg(pic){
+fullimgbox.style.display="flex";
+fullimg.src=pic;
+}
+function closefullimg(){
+fullimgbox.style.display="none";
+}
+</script>
+</section>
+
+<!----call to action---->
+<section class="cta">
+<h1>Enroll for our various updates regarding meteora 2024!</h1>
+<a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+</body>
+</html>
